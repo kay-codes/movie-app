@@ -1,0 +1,12 @@
+.bgImg {
+height: 100vh;
+background:linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.589)),url("https://cdn.theatlantic.com/thumbor/KaoVeeYrw6_rtuBcVxk_g7SmhqA=/16x202:6048x3595/1600x900/https://cdn.theatlantic.com/assets/media/img/mt/2020/02/rev_1_BOP_10640rv2_High_Res_JPEG/original.jpg");
+background-position:center;
+background-repeat: no-repeat;
+background-size:cover;
+-moz-background-size: cover; 
+-webkit-background-size: cover; 
+}
+h1{
+    color:black;
+}

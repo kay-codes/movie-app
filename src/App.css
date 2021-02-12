@@ -1,3 +1,23 @@
 *{
-  background-color: #333333;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+.signup{
+  border: 1px #D8D8D8 solid;
+  border-radius: 20px;
+  width:80px;
+  height: 35px;
+  color: #d8d8d8;
+  background-color:transparent;
+font-size: 13px;
+cursor: pointer;;
+
+}
+.signup:hover{
+  border: 1px rgb(18, 19, 19) solid;
+  background-color:rgb(18, 19, 19);
+  color: white;
+transition: all 0.5s ease 0s;
+/* background: linear-gradient(to right,rgba(64, 224, 208),rgb(146, 245, 230));*/
 }

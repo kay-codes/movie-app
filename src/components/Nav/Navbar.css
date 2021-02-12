@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+*{
+    font-size: 20px;
+    font-family: 'Heebo', sans-serif;
+    color: #F0F0F0;
+}
+ul{
+    list-style-type: none;
+    display:inline;
+}
+.navBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    background-color: transparent;
+
+}
+
+.navBar a{
+    text-decoration: none;
+   padding:14px 16px;
+}
+.navBarRight{
+    justify-content: flex-end;
+}
+ .navBar li{
+    padding:12px;
+    display:inline-block;
+}
+ .navBar li a:hover{
+    color:turquoise;
+}
+.navBar li a{
+    transition: all 0.3s ease 0s;
+}
+.logo{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 40px;
+    cursor: pointer;
+}
+
